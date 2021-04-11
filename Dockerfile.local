@@ -1,0 +1,8 @@
+FROM node:14-alpine3.13
+WORKDIR /monsters-rolodex
+COPY ./monsters-rolodex/package*.json ./
+RUN npm install
+EXPOSE 3000
+#COPY ./monsters-rolodex/public ./public
+#COPY ./monsters-rolodex/src ./src
+
