@@ -59,4 +59,12 @@ podman run -it --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/p
 
 podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
 
+
+/mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
+
+mkdir build
+
+podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -v $(pwd)/build:/monsters-rolodex/build:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm run build
+
+
 ```
