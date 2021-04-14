@@ -92,3 +92,16 @@ this.state.monsters.map(monster =>
                 <h1 key={monster.id}>{monster.name}</h1>)
 ```
 
+### 28. Single Page Application
+
+<https://jsonplaceholder.typicode.com/users>
+<https://www.w3schools.com/whatis/whatis_json.asp>
+
+### 29. Fetching content
+
+Lifecycle Methods, componentDidMount, fetch
+
+```bash
+cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
+podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
+```
