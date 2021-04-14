@@ -78,3 +78,17 @@ cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolode
 podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
 
 ```
+
+### 25. Thinking In JSX
+
+### 26. Dynamic Content
+
+state, Map , key
+
+Anytime you use the map() function inside of render, or you have a list of the same jsx elements one after another, they need a key attribute
+
+```react
+this.state.monsters.map(monster => 
+                <h1 key={monster.id}>{monster.name}</h1>)
+```
+
