@@ -111,3 +111,7 @@ podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/pu
 CSS Grid, components, props children
 <https://css-tricks.com/snippets/css/complete-guide-grid/>
 <https://gridbyexample.com/what/>
+
+### 34. Card Component
+
+<https://robohash.org/1?set=set2>
