@@ -105,3 +105,9 @@ Lifecycle Methods, componentDidMount, fetch
 cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
 podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
 ```
+
+### 32. Card List Component
+
+CSS Grid, components, props children
+<https://css-tricks.com/snippets/css/complete-guide-grid/>
+<https://gridbyexample.com/what/>
