@@ -134,3 +134,7 @@ setState second argument -> callback
 Destructuring `const { monsters, searchField } = this.state;`
 
 <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring>
+
+### 41. Search Box Component
+
+functional component
