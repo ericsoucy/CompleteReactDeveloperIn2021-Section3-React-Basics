@@ -122,3 +122,15 @@ CSS Grid, components, props children
 
 setState second argument -> callback
 <https://reactjs.org/docs/react-component.html#setstate>
+
+### 38. React Events
+
+<https://www.w3schools.com/jsref/event_onchange.asp>
+<https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events>
+<https://reactjs.org/docs/events.html>
+
+### 39. Filtering State
+
+Destructuring `const { monsters, searchField } = this.state;`
+
+<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment#object_destructuring>
