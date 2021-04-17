@@ -177,3 +177,8 @@ podman run -it --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/p
 
 https://ericsoucy.github.io/CompleteReactDeveloperIn2021-Section3-React-Basics/index.html
 ```
+
+### 50. React and ReactDOM
+
+<https://unpkg.com/react@17.0.2/umd/react.development.js>
+<https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js>
