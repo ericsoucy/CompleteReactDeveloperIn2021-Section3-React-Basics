@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/css/main.76c5cec2.chunk.css",
+    "main.js": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/main.18bdd763.chunk.js",
+    "main.js.map": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/main.18bdd763.chunk.js.map",
+    "runtime-main.js": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/runtime-main.7d72b05b.js",
+    "runtime-main.js.map": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/runtime-main.7d72b05b.js.map",
+    "static/js/2.5d1db3de.chunk.js": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/2.5d1db3de.chunk.js",
+    "static/js/2.5d1db3de.chunk.js.map": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/2.5d1db3de.chunk.js.map",
+    "static/js/3.9db938e1.chunk.js": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/3.9db938e1.chunk.js",
+    "static/js/3.9db938e1.chunk.js.map": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/3.9db938e1.chunk.js.map",
+    "index.html": "/CompleteReactDeveloperIn2021-Section3-React-Basics/index.html",
+    "static/css/main.76c5cec2.chunk.css.map": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/css/main.76c5cec2.chunk.css.map",
+    "static/js/2.5d1db3de.chunk.js.LICENSE.txt": "/CompleteReactDeveloperIn2021-Section3-React-Basics/static/js/2.5d1db3de.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7d72b05b.js",
+    "static/js/2.5d1db3de.chunk.js",
+    "static/css/main.76c5cec2.chunk.css",
+    "static/js/main.18bdd763.chunk.js"
+  ]
+}
