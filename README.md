@@ -165,6 +165,7 @@ podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/pu
 
 <https://github.com/ZhangMYihua/monsters-rolodex-complete>
 <https://fonts.google.com/?query=bigelow+rules&selection.family=Bigelow+Rules>
+<https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f>
 
 ```bash
 cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
