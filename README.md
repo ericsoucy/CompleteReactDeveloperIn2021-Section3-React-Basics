@@ -156,3 +156,17 @@ cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolode
 podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
 ```
 
+### 47. Optional: Connecting With SSH To Github
+
+<https://docs.github.com/en/github/getting-started-with-github/about-remote-repositories>
+<https://docs.github.com/en/enterprise/2.15/user/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent>
+
+### 48. Deploying Our App
+
+<https://github.com/ZhangMYihua/monsters-rolodex-complete>
+<https://fonts.google.com/?query=bigelow+rules&selection.family=Bigelow+Rules>
+
+```bash
+cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
+podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
+```
