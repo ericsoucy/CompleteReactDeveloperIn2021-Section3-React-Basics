@@ -1,4 +1,7 @@
 FROM node:14-alpine3.13
+RUN apk --no-cache add git
+RUN git config --global user.email "eric_soucy_1@yahoo.ca"
+RUN git config --global user.name "ericsoucy"
 WORKDIR /monsters-rolodex
 COPY ./monsters-rolodex/package*.json ./
 RUN npm install

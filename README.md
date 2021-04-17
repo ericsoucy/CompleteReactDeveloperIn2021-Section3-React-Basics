@@ -169,4 +169,10 @@ podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/pu
 ```bash
 cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
 podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
+
+buildah --layers=true -f Dockerfile.local bud -t monsters-rolodex-image
+
+podman run -it --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm run deploy
+
+https://ericsoucy.github.io/CompleteReactDeveloperIn2021-Section3-React-Basics/index.html
 ```
