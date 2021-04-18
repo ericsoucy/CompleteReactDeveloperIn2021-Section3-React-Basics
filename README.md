@@ -182,3 +182,38 @@ https://ericsoucy.github.io/CompleteReactDeveloperIn2021-Section3-React-Basics/i
 
 <https://unpkg.com/react@17.0.2/umd/react.development.js>
 <https://unpkg.com/react-dom@17.0.2/umd/react-dom.development.js>
+
+### 51. Latest React Package Updates
+
+```bash
+cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
+podman run -it --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm list react react-dom react-scripts
+```
+
+### 52. Revisiting VirtualDOM + Unidirectional Data Flow
+
+```bash
+cd /mnt/d/dev/CompleteReactDeveloperIn2021/Section3-React-Basics/monsters-rolodex
+podman run -d --rm --name monsters-rolodex -v $(pwd)/public:/monsters-rolodex/public:z -v $(pwd)/src:/monsters-rolodex/src:z -p 3000:3000 -e CHOKIDAR_USEPOLLING=true monsters-rolodex-image npm start
+
+
+```
+
+### 53. Asynchronous setState
+
+setState IS ASYNC
+use (prevState, prevProps)
+inject props in constructor
+
+```react
+this.setState(
+      (prevState, prevProps) => {
+        return {
+          meaningOfLife: prevState.meaningOfLife + prevProps.increment,
+        };
+      },
+      () => {
+        console.log(this.state.meaningOfLife);
+      }
+    );
+```
