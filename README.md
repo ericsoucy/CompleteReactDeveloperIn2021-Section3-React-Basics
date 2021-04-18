@@ -217,3 +217,36 @@ this.setState(
       }
     );
 ```
+
+### 54. Introducing Lifecycle Methods
+
+<https://github.com/ZhangMYihua/lifecycles-lesson>
+
+### 55. React Lifecycle Methods - Mounting
+
+at first display:
+```
+constructor!
+render!
+componentDidMount!
+```
+
+update text button:
+```
+shouldComponentUpdate! {text: "_hello_hello"}
+render!
+componentDidUpdate!
+```
+Toggle lifecycles button:
+```
+componentWillUnmount!
+or
+constructor!
+render!
+10 componentDidMount!
+``` 
+
+
+![lifecycles](./lifecycles-lesson/React%20lifecycle%20methods%20diagram.png)
+
+<https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/>
