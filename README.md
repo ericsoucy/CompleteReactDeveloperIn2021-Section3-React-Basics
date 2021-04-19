@@ -250,3 +250,10 @@ render!
 ![lifecycles](./lifecycles-lesson/React%20lifecycle%20methods%20diagram.png)
 
 <https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/>
+
+
+## Quiz 1: When should we use a functional component vs a class component?
+
+We want to create a new component in React that **doesn't need any local state** management or **access to lifecycle methods** in the component. What kind of component should we make?
+
+**Functional** components are the best type of component to render if you don't need access to state or lifecycle methods! It has benefits of being easy to test, easier to read, and easier to write!
